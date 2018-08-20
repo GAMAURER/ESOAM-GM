@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="meuiddegrupo.meuiddeartefato.actionSet">
+         <menu
+               id="meuiddeartefato"
+               label="%menu_group"
+               path="tool/meuiddeartefato">
+         </menu>
+         <action
+			   label="%count_classes"
+               icon="icons/sample.gif"
+               class="meuiddegrupo.CountClassAction"
+               tooltip="%Count classes"
+               menubarPath="tool/meuiddeartefato/"
+               id="meuiddeartefato">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
+
